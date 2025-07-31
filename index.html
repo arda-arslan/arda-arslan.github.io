@@ -1,5 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-</head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connecticut Ruck Club</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-Hello World
+    body {
+      font-family: 'Courier New', sans-serif;
+      background-color: white;
+      color: #111;
+    }
+
+    .hero {
+      background: url('waveny_photo.jpg') center center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .map-section {
+      color: black;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .map-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .map-section p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+
+    .footer {
+      background-color: #0b3d0b;
+      color: white;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: underline;
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p,
+      .map-section p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>Connecticut Ruck Club</h1>
+  </section>
+
+  <section class="section">
+    <p>
+      We're a ruck club of people juggling work, life, and fitness — and looking for community along the way. This group is for those in their mid 20s to late 30s who want to stay active, be social, and look forward to pushing themselves.
+    </p>
+  </section>
+
+	<section class="map-section">
+	  <h2>Where We Meet</h2>
+	  <p>Waveny Park, New Canaan, CT</p>
+	  <p><strong>Wednesdays at 6 PM</strong></p>
+	  <p><strong>Saturdays at 7 AM</strong></p>
+	  <p>
+	    <a href="https://maps.app.goo.gl/KFfKoWu9FFJ2xmX8A" target="_blank" style="text-decoration:underline;">
+	      Open Location in Google Maps
+	    </a>
+	  </p>
+	</section>
+
+
+  <footer class="footer">
+    <a href="mailto:connecticutruckclub@gmail.com">connecticutruckclub@gmail.com</a>
+  </footer>
+
+</body>
+</html>
